@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The Lyohess - Especialistas em acabamentos decorativos premium. Microcimento, Marmorinos, Revestimentos de Cal, Pintura Decorativa. 12 anos de experiência em Portugal, Espanha e Itália.">
+  <meta name="keywords"
+    content="microcimento, marmorino, revestimento de cal, pintura decorativa, capoto, fachadas, Portugal, Espanha, Itália">
+  <meta name="author" content="The Lyohess">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="The Lyohess - Acabamentos Decorativos Premium">
+  <meta property="og:description"
+    content="Especialistas em microcimento, marmorinos e revestimentos de cal. 12 anos de experiência.">
+  <meta property="og:type" content="website">
+
+  <title>The Lyohess | Acabamentos Decorativos Premium</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- ============================================
+       HEADER
+       ============================================ -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">THE LYOHESS</a>
+
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active" data-i18n="nav.home">Home</a>
+        <a href="#about" class="nav-link" data-i18n="nav.about">Sobre</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services">Serviços</a>
+        <a href="#projects" class="nav-link" data-i18n="nav.projects">Projetos</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contacto</a>
+      </nav>
+
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="pt">PT</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+
+      <button class="menu-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section id="home" class="hero">
+    <div class="hero-bg"
+      style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title" data-i18n="hero.title">Acabamentos Decorativos de Alta Qualidade</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Microcimento, Marmorinos e Revestimentos de Cal</p>
+
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_projects">Ver Projetos</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.cta_contact">Contacte-nos</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <div class="hero-scroll-icon"></div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img
+            src="https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+            alt="Artesão aplicando acabamento decorativo" loading="lazy">
+        </div>
+
+        <div class="about-content reveal-right">
+          <h6 class="text-accent" data-i18n="about.subtitle">12 Anos de Excelência</h6>
+          <h2 data-i18n="about.title">Sobre Nós</h2>
+
+          <p data-i18n="about.p1">A The Lyohess é uma empresa especializada em acabamentos decorativos premium, com 12
+            anos de experiência no mercado Europeu.</p>
+
+          <p data-i18n="about.p2">Atuamos em Portugal, Espanha e Itália, oferecendo soluções de alta qualidade em
+            microcimento, marmorinos, revestimentos de cal e pintura decorativa.</p>
+
+          <p data-i18n="about.p3">O nosso compromisso é transformar espaços através de técnicas artesanais e materiais
+            de excelência, criando ambientes únicos e sofisticados.</p>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="12">12</span>
+              <span class="stat-label" data-i18n="about.stat_years">Anos de Experiência</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="500">500</span>
+              <span class="stat-label" data-i18n="about.stat_projects">Projetos Realizados</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="3">3</span>
+              <span class="stat-label" data-i18n="about.stat_countries">Países</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 data-i18n="services.title">Os Nossos Serviços</h2>
+        <p data-i18n="services.subtitle">Soluções premium para transformar o seu espaço</p>
+      </div>
+
+      <div class="services-grid reveal-stagger">
+        <!-- Microcimento -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="layers"></i>
+          </div>
+          <h4 data-i18n="services.microcement.title">Microcimento</h4>
+          <p data-i18n="services.microcement.desc">Revestimento contínuo versátil para pavimentos e paredes, com
+            acabamento moderno e durável.</p>
+        </div>
+
+        <!-- Marmorinos -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="gem"></i>
+          </div>
+          <h4 data-i18n="services.marmorino.title">Marmorinos</h4>
+          <p data-i18n="services.marmorino.desc">Efeito mármore premium com técnicas artesanais italianas para um
+            acabamento sofisticado.</p>
+        </div>
+
+        <!-- Revestimento de Cal -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="droplets"></i>
+          </div>
+          <h4 data-i18n="services.lime.title">Revestimento de Cal</h4>
+          <p data-i18n="services.lime.desc">Acabamentos naturais e respiráveis com cal de alta qualidade, ideais para
+            restauros.</p>
+        </div>
+
+        <!-- Pintura Decorativa -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="palette"></i>
+          </div>
+          <h4 data-i18n="services.decorative.title">Pintura Decorativa</h4>
+          <p data-i18n="services.decorative.desc">Técnicas decorativas exclusivas para criar texturas e efeitos únicos
+            nas suas paredes.</p>
+        </div>
+
+        <!-- Capoto e Fachadas -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="building-2"></i>
+          </div>
+          <h4 data-i18n="services.facade.title">Capoto e Fachadas</h4>
+          <p data-i18n="services.facade.desc">Isolamento térmico exterior e reabilitação de fachadas com materiais de
+            primeira qualidade.</p>
+        </div>
+
+        <!-- Pintura Interior e Exterior -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="paint-bucket"></i>
+          </div>
+          <h4 data-i18n="services.painting.title">Pintura Interior e Exterior</h4>
+          <p data-i18n="services.painting.desc">Serviços completos de pintura profissional para interiores e exteriores.
+          </p>
+        </div>
+
+        <!-- Remodelações -->
+        <div class="service-card">
+          <div class="service-icon">
+            <i data-lucide="wrench"></i>
+          </div>
+          <h4 data-i18n="services.renovation.title">Remodelações</h4>
+          <p data-i18n="services.renovation.desc">Remodelações a nível geral, desde pequenas intervenções a projetos
+            completos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PROJECTS SECTION
+       ============================================ -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 data-i18n="projects.title">Os Nossos Projetos</h2>
+        <p data-i18n="projects.subtitle">Deixamos o trabalho falar por si</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all" data-i18n="projects.filter_all">Todos</button>
+        <button class="filter-btn" data-filter="microcement"
+          data-i18n="projects.filter_microcement">Microcimento</button>
+        <button class="filter-btn" data-filter="marmorino" data-i18n="projects.filter_marmorino">Marmorino</button>
+        <button class="filter-btn" data-filter="lime" data-i18n="projects.filter_lime">Cal</button>
+        <button class="filter-btn" data-filter="decorative" data-i18n="projects.filter_decorative">Decorativo</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="projects-grid reveal-stagger">
+        <!-- Featured Project - Efeito Mármore -->
+        <div class="project-item featured" data-category="marmorino">
+          <img src="assets/images/projeto-marmore-01.jpg" alt="Parede com efeito mármore artístico" loading="lazy">
+          <div class="project-overlay">
+            <h5>Efeito Mármore</h5>
+            <span>Marmorino</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 - Microcimento Loja -->
+        <div class="project-item" data-category="microcement">
+          <img src="assets/images/projeto-microcimento-01.jpg" alt="Espaço comercial com microcimento" loading="lazy">
+          <div class="project-overlay">
+            <h5>Espaço Comercial</h5>
+            <span>Microcimento</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - Cal Fachada -->
+        <div class="project-item" data-category="lime">
+          <img src="assets/images/projeto-cal-01.jpg" alt="Fachada com revestimento de cal" loading="lazy">
+          <div class="project-overlay">
+            <h5>Villa Terracota</h5>
+            <span>Revestimento de Cal</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 - Cal Detalhe -->
+        <div class="project-item" data-category="lime">
+          <img src="assets/images/projeto-cal-02.jpg" alt="Detalhe do acabamento de cal" loading="lazy">
+          <div class="project-overlay">
+            <h5>Detalhe Acabamento</h5>
+            <span>Revestimento de Cal</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 - Cal Vista Lateral -->
+        <div class="project-item" data-category="lime">
+          <img src="assets/images/projeto-cal-03.jpg" alt="Vista lateral da fachada" loading="lazy">
+          <div class="project-overlay">
+            <h5>Fachada Lateral</h5>
+            <span>Revestimento de Cal</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 - Cal Perspetiva -->
+        <div class="project-item" data-category="lime">
+          <img src="assets/images/projeto-cal-04.jpg" alt="Perspetiva da construção" loading="lazy">
+          <div class="project-overlay">
+            <h5>Perspetiva</h5>
+            <span>Revestimento de Cal</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 - Cal Vista Geral -->
+        <div class="project-item" data-category="lime">
+          <img src="assets/images/projeto-cal-05.jpg" alt="Vista geral do projeto" loading="lazy">
+          <div class="project-overlay">
+            <h5>Vista Geral</h5>
+            <span>Revestimento de Cal</span>
+            <div class="view-icon">
+              <i data-lucide="expand"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <h6 class="text-accent" data-i18n="contact.info_title">Informações de Contacto</h6>
+          <h2 data-i18n="contact.title">Contacte-nos</h2>
+          <p data-i18n="contact.info_desc">Entre em contacto connosco para um orçamento gratuito ou para saber mais
+            sobre os nossos serviços.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5 data-i18n="contact.email_label">Email</h5>
+                <a href="mailto:info@thelyohess.com">info@thelyohess.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="phone"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5 data-i18n="contact.phone_label">Telefone</h5>
+                <a href="tel:+351912345678">+351 912 345 678</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div class="contact-item-content">
+                <h5 data-i18n="contact.location_label">Localização</h5>
+                <p data-i18n="contact.location_value">Portugal, Espanha e Itália</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper reveal-right">
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" data-i18n="contact.form.name">Nome</label>
+                <input type="text" id="name" name="name" data-i18n="contact.form.name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contact.form.email">Email</label>
+                <input type="email" id="email" name="email" data-i18n="contact.form.email" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone" data-i18n="contact.form.phone">Telefone</label>
+                <input type="tel" id="phone" name="phone" data-i18n="contact.form.phone">
+              </div>
+              <div class="form-group">
+                <label for="subject" data-i18n="contact.form.subject">Assunto</label>
+                <input type="text" id="subject" name="subject" data-i18n="contact.form.subject">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-i18n="contact.form.message">Mensagem</label>
+              <textarea id="message" name="message" rows="5" data-i18n="contact.form.message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#home" class="logo">THE LYOHESS</a>
+          <p data-i18n="footer.desc">Especialistas em acabamentos decorativos premium com 12 anos de experiência no
+            mercado Europeu.</p>
+        </div>
+
+        <!-- Navigation -->
+        <div class="footer-column">
+          <h5 data-i18n="footer.nav_title">Navegação</h5>
+          <div class="footer-links">
+            <a href="#home" data-i18n="nav.home">Home</a>
+            <a href="#about" data-i18n="nav.about">Sobre</a>
+            <a href="#services" data-i18n="nav.services">Serviços</a>
+            <a href="#projects" data-i18n="nav.projects">Projetos</a>
+            <a href="#contact" data-i18n="nav.contact">Contacto</a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-column">
+          <h5 data-i18n="footer.services_title">Serviços</h5>
+          <div class="footer-links">
+            <a href="#services" data-i18n="services.microcement.title">Microcimento</a>
+            <a href="#services" data-i18n="services.marmorino.title">Marmorinos</a>
+            <a href="#services" data-i18n="services.lime.title">Revestimento de Cal</a>
+            <a href="#services" data-i18n="services.decorative.title">Pintura Decorativa</a>
+            <a href="#services" data-i18n="services.facade.title">Capoto e Fachadas</a>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h5 data-i18n="footer.contact_title">Contacto</h5>
+          <div class="footer-links">
+            <a href="mailto:info@thelyohess.com">info@thelyohess.com</a>
+            <a href="tel:+351912345678">+351 912 345 678</a>
+            <p data-i18n="contact.location_value">Portugal, Espanha e Itália</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2024 The Lyohess. Todos os direitos reservados.</p>
+
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <i data-lucide="facebook"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <i data-lucide="instagram"></i>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       LIGHTBOX
+       ============================================ -->
+  <div class="lightbox">
+    <button class="lightbox-close" aria-label="Close">
+      <i data-lucide="x"></i>
+    </button>
+    <div class="lightbox-content">
+      <img src="" alt="Project image">
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>
